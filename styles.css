@@ -1,9 +1,5 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #1F2937;
-    flex-wrap: wrap;
 }
 .logo {
     margin-left: 65px;
@@ -23,17 +19,24 @@ a {
     margin-right: 25px;
     padding: 20px 0;
 }
-
+.first-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .ext {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
 }
 .another-part {
     display:flex;
     flex-wrap: wrap;
-    
+    width: 300px;
+}
+.tree-holder {
+    align-self: flex-end;
 }
 .tree {
     width: 300px;
