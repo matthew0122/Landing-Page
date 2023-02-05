@@ -126,9 +126,30 @@ button{
     margin-top:-20px;
 }
 
+.full-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
 .call-to-action {
     display: flex;
     background-color: #3882F6;
+    border-radius: 5px;
+    width: 800px;
+    flex-direction:column;  
+    justify-content: space-around;  
+    padding: 25px;
+}
+.other-holder {
+    display: flex; 
+    align-items: center;
+    gap: 50px;
+    margin-left: 50px;
+}
+.call-info {
+    margin-left: 50px;
+    margin-bottom: -30px;
 }
 .sign-up-button {
     outline: 1px solid white;
