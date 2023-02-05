@@ -162,3 +162,11 @@ h3 {
     color: #E5E7EB;
     font-size: 14px;
 }
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
