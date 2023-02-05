@@ -125,3 +125,19 @@ button{
     align-self: flex-end;
     margin-top:-20px;
 }
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+}
+.sign-up-button {
+    outline: 1px solid white;
+}
+h3 {
+    color: white;
+    font-size: 20px;
+}
+.sign-up {
+    color: #E5E7EB;
+    font-size: 14px;
+}
