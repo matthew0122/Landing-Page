@@ -31,6 +31,7 @@ a {
     flex-direction: row;
     justify-content: center;
     gap: 25px;
+    padding-bottom: 100px;
 }
 .another-part {
     display:flex;
@@ -43,6 +44,7 @@ a {
 .tree {
     width: 300px;
     height: auto;
+    align-self: center;
 }
 .awesome {
     font-size: 48px;
@@ -98,5 +100,28 @@ button{
 }
 .sub {
     color: #161616;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+}
+.quote-section{
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-and-attribution {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 50px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.attribution {
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    align-self: flex-end;
+    margin-top:-20px;
 }
