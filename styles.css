@@ -3,9 +3,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    flex-wrap: wrap;
 }
 .logo {
-    
     margin-left: 65px;
     font-size: 24px;
     color: #F9FAF8;
@@ -22,4 +22,24 @@ a {
     font-size: 18px;
     margin-right: 25px;
     padding: 20px 0;
+}
+
+.ext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.another-part {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.tree {
+    width: 300px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 800px;
+    color: #F9FAF8;
 }
