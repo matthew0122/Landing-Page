@@ -44,7 +44,7 @@ a {
     width: 300px;
     height: auto;
 }
-h1 {
+.awesome {
     font-size: 48px;
     font-weight: 800px;
     color: #F9FAF8;
@@ -90,4 +90,13 @@ button{
     width: 200px;
     flex-direction: column;
     
+}
+.random-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.sub {
+    color: #161616;
+    font-family:'Times New Roman', Times, serif
 }
